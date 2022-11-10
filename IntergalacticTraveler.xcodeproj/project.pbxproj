@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D000CE72291AC33C00D766B6 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D000CE71291AC33C00D766B6 /* SecondaryViewController.swift */; };
 		D003074C29099A9E008E1EEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003074B29099A9E008E1EEE /* AppDelegate.swift */; };
 		D003074E29099A9E008E1EEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003074D29099A9E008E1EEE /* SceneDelegate.swift */; };
 		D003075029099A9E008E1EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003074F29099A9E008E1EEE /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D000CE71291AC33C00D766B6 /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
 		D003074829099A9E008E1EEE /* IntergalacticTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntergalacticTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D003074B29099A9E008E1EEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D003074D29099A9E008E1EEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				D003074D29099A9E008E1EEE /* SceneDelegate.swift */,
 				D003074F29099A9E008E1EEE /* ViewController.swift */,
 				D003075129099A9E008E1EEE /* Main.storyboard */,
+				D000CE71291AC33C00D766B6 /* SecondaryViewController.swift */,
 				D003075429099A9F008E1EEE /* Assets.xcassets */,
 				D003075629099A9F008E1EEE /* LaunchScreen.storyboard */,
 				D003075929099A9F008E1EEE /* Info.plist */,
@@ -141,6 +144,7 @@
 				D003075029099A9E008E1EEE /* ViewController.swift in Sources */,
 				D003074C29099A9E008E1EEE /* AppDelegate.swift in Sources */,
 				D003074E29099A9E008E1EEE /* SceneDelegate.swift in Sources */,
+				D000CE72291AC33C00D766B6 /* SecondaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

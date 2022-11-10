@@ -29,5 +29,23 @@ class ViewController: UIViewController {
             self.view.sendSubviewToBack(imageView)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+        
+        let nvc = segue.destination as! SecondaryViewController
+        
+        let randomNumber = Int.random(in: 1...3)
+        
+        if segue.identifier == "blueSegue" {
+           
+            nvc.filename = "Blue Star\(randomNumber)"
+      
+        }else{
+            
+            nvc.filename = "Red Star\(randomNumber)"
+            
+        }
+        
+    }
 
 }
